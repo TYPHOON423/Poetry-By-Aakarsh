@@ -1,0 +1,93 @@
+body {
+ background-image: url("Home Background.jpg");
+ background-color: #cccccc;
+}
+
+h1 {
+  display: block;
+  font-size: 4em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align:center;
+  color: #FA9800;
+  text-shadow: 0 0 4px #000000;
+}
+
+p {
+  color: #FFD966;
+  font-size: 1.5em;
+  text-shadow: 0 0 4px #000000;
+  text-align: center;
+}
+
+table {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+  width: 60%;
+}
+
+th {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+  width: 60%;
+  height: 50px;
+  vertical-align: top;
+  text-align: left;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.5em;
+  width: 60%;
+  height: 200px;
+  vertical-align: top;
+  text-align: left;
+  padding: 20px;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {background-color: ;}
+
+tr:nth-child(even) {background-color: ;}
+
+/* unvisited link */
+a:link {
+  color: #38E54D;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* visited link */
+a:visited {
+  color: #82CD47;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* mouse over link */
+a:hover {
+  color: #9CFF2E;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* selected link */
+a:active {
+  color: #379237;
+  text-decoration: none;
+  cursor: wait;
+}

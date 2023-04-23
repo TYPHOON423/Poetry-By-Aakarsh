@@ -1,0 +1,31 @@
+body {
+  background-image: url("Home Background.jpg");
+  background-color: #cccccc;
+}
+
+p {
+  color: #FFD966;
+  font-size: 1.5em;
+  text-shadow: 0 0 4px #000000;
+}
+
+p.p1 {
+  text-align:center;
+}
+
+p.p2 {
+  text-align:right;
+}
+
+h1 {
+  display: block;
+  font-size: 4em;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+  margin-left: 0;
+  margin-right: 0;
+  font-weight: bold;
+  text-align:center;
+  color: #FA9800;
+  text-shadow: 0 0 5px #000000;
+}
